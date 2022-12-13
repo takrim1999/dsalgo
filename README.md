@@ -5,9 +5,10 @@
 + Stack
 + Array
     - Insertion
+    - Deletation
 ### currently covered Algorithms:
 - coomming soon ...
-
+- Linear Search
 ### Language Used:
 * Python
 * C
