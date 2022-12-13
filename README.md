@@ -7,6 +7,7 @@
     - Insertion
     - Deletation
     - Linear Search
+    - Binary Search
 ### currently covered Algorithms:
 - coomming soon ...
 ### Language Used:
