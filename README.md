@@ -6,9 +6,9 @@
 + Array
     - Insertion
     - Deletation
+    - Linear Search
 ### currently covered Algorithms:
 - coomming soon ...
-- Linear Search
 ### Language Used:
 * Python
 * C
