@@ -5,7 +5,7 @@
 + Stack
 + Array
     - Insertion
-    - Deletation
+    - Deletion
     - Linear Search
     - Binary Search
 ### currently covered Algorithms:
