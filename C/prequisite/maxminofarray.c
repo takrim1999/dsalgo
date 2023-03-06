@@ -1,8 +1,9 @@
 #include <stdio.h>
 int maxmin(int arr[], int length, int *max, int *min);
+int *findmid(int arr[], int length);
 int main()
 {
-    int max = NULL, min = NULL, array[] = {23, 87, 12, 6, 28, 35, 78, 108, 92, 56, 33};
+    int max = 0, min = 0, array[] = {23, 87, 12, 6, 28, 35, 78, 108, 92, 56, 33};
     max = min = array[0];
     if (maxmin(array, sizeof(array) / sizeof(array[0]), &max, &min) == 0)
     {
@@ -11,6 +12,8 @@ int main()
     }
     else
         printf("Something went wrong");
+
+    printf("The middle element is : %d\n", *findmid(array, sizeof(array) / sizeof(array[0])));
 
     return 0;
 }
@@ -30,4 +33,17 @@ int maxmin(int arr[], int length, int *max, int *min)
         }
     }
     return 0;
+}
+
+int *findmid(int arr[], int length)
+{
+    int mid = 0;
+    if (length % 2 == 0)
+    {
+        return &arr[length / 2];
+    }
+    else
+        return &arr[(length / 2) + 1];
+
+    // return &mid;
 }
