@@ -2,7 +2,8 @@
 #include <stdlib.h>
 int main()
 {
-    void *ptr = NULL;
-
+    int *ptr = (int *)malloc(4);
+    *ptr = 20;
+    printf("%d", *ptr);
     return 0;
 }
