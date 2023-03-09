@@ -3,6 +3,11 @@
 
 ### currently covered Data Structures:
 + Stack
+	- push
+	- pop
++ Queue
+	- queue
+	- dequeue
 + Array
     - Insertion
     - Deletation
@@ -11,5 +16,5 @@
 ### currently covered Algorithms:
 - coomming soon ...
 ### Language Used:
-* Python
 * C
+only c is used as my varsity lab only supports c/c++ compilers
