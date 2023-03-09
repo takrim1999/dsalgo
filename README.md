@@ -1,5 +1,5 @@
-# DSAlgo
-## Algorithms and Data Strutures in different languages.
+# Data Structure and Algorithm with C
+## Assignments for lab
 
 ### currently covered Data Structures:
 + Stack
