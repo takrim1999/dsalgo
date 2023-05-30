@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX 4
+#define MAX 8
 int stack_array[MAX];
 int top = -1;
 int deleted_element = 0;
+
 int main()
 {
     push(1);
