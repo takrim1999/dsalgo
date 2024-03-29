@@ -1,11 +1,21 @@
 #include <iostream>
 using namespace std;
-int main(){
-    // cin >> "give data: ";
-    int a;
-    for(int i =0 ; i<=1000;i++){
-        cout << i;
+
+bool isPrime(int n){
+    for(int i=2;i<n;i++){
+
+        if(n%i==0)
+            return false;
     }
 
+    return true;
+}
+
+int main(){
+
+    if(isPrime(104729))
+        cout << "Prime";
+    else
+        cout << "Not Prime";
     return 0;
 }
