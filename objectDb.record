@@ -1,0 +1,53 @@
+{'01m7r7': {'name': 'Md. Nafizul Muntahar', 'roll': '77101', 'age': '24', 'cgpa': 'NA', 'position': 'NA'}}
+{'02m2a0': {'name': 'Md. Nuronnobi Mia', 'roll': '2010677102', 'age': '25', 'cgpa': '3.368', 'position': '23'}}
+{'03m2n0': {'name': 'Mahmudul Hasan', 'roll': '2010977103', 'age': '24', 'cgpa': 'NA', 'position': 'NA'}}
+{'04b2n0': {'name': 'Bushra Binte Rahman', 'roll': '2012177104', 'age': '24', 'cgpa': '3.328', 'position': '33'}}
+{'05s2r0': {'name': 'Samiul Bashir', 'roll': '2010277105', 'age': '24', 'cgpa': '3.917', 'position': '01'}}
+{'06s2m0': {'name': 'Samia Tasnim', 'roll': '2012077106', 'age': '24', 'cgpa': '3.311', 'position': '27'}}
+{'07f2a0': {'name': 'Fatema Akter Kotha', 'roll': '2012077107', 'age': '24', 'cgpa': '3.762', 'position': '8'}}
+{'08m7n7': {'name': 'Md Asif Al Imran', 'roll': '77108', 'age': '24', 'cgpa': '3.316', 'position': '26'}}
+{'09m2n0': {'name': 'Md. Parvez Khan', 'roll': '2011177109', 'age': '24', 'cgpa': '3.094', 'position': '37'}}
+{'10m7n7': {'name': 'Md Nahid Hasan', 'roll': '77110', 'age': '24', 'cgpa': '3.469', 'position': '21'}}
+{'11p7y7': {'name': 'Proxima Roy Chowdhury', 'roll': '77111', 'age': '24', 'cgpa': '3.243', 'position': '32'}}
+{'12m2n0': {'name': 'Md. Mehedi Hasan', 'roll': '2010477112', 'age': '25', 'cgpa': '3.860', 'position': '3'}}
+{'13m2r0': {'name': 'Md. Nasim Sarker', 'roll': '2010977113', 'age': '23', 'cgpa': '3.853', 'position': '4'}}
+{'14m2m0': {'name': 'Md. Omar Faruk Tanzim', 'roll': '2010977114', 'age': '24', 'cgpa': '2.569', 'position': '57'}}
+{'15m7n7': {'name': 'Md. Shojjb Hossain', 'roll': '77115', 'age': '24', 'cgpa': '3.308', 'position': '28'}}
+{'16p2l0': {'name': 'Pronab Kumar Paul', 'roll': '2010177116', 'age': '24', 'cgpa': '3.789', 'position': '7'}}
+{'17m7n7': {'name': 'Md Abir Hasan', 'roll': '77117', 'age': '25', 'cgpa': '3.689', 'position': '12'}}
+{'18m2n0': {'name': 'Md. Emtiaz Emon', 'roll': '2010277118', 'age': '25', 'cgpa': '3.646', 'position': '15'}}
+{'19m7a7': {'name': 'Md. Jewel Rana', 'roll': '77119', 'age': '24', 'cgpa': 'NA', 'position': 'NA'}}
+{'20m7i7': {'name': 'Md. Hasem Ali', 'roll': '77120', 'age': '24', 'cgpa': '3.798', 'position': '5'}}
+{'21s7i7': {'name': 'Subrin Niger Pinki', 'roll': '77121', 'age': '24', 'cgpa': 'NA', 'position': 'NA'}}
+{'22s2l0': {'name': 'Shuvo Mondol', 'roll': '2010677122', 'age': '24', 'cgpa': 'NA', 'position': 'NA'}}
+{'23t2m0': {'name': 'Tarikul Islam', 'roll': '2010177123', 'age': '24', 'cgpa': '3.252', 'position': '30'}}
+{'24a2i0': {'name': 'Abrar Hasnat Rafi', 'roll': '2010677124', 'age': '24', 'cgpa': '2.670', 'position': '54'}}
+{'25m2α0': {'name': 'Md. Raihan Μια', 'roll': '2010977125', 'age': '24', 'cgpa': '3.573', 'position': '17'}}
+{'26i2i0': {'name': 'Imratuzzahan Sumi', 'roll': '2012177126', 'age': '24', 'cgpa': '3.680', 'position': '13'}}
+{'27s2d0': {'name': 'Saad', 'roll': '2010677127', 'age': '24', 'cgpa': 'NA', 'position': 'NA'}}
+{'28s7h7': {'name': 'Sagar Ghosh', 'roll': '77128', 'age': '24', 'cgpa': '3.237', 'position': '34'}}
+{'29s7r7': {'name': 'Syed Safwan Haider', 'roll': '77129', 'age': '24', 'cgpa': 'NA', 'position': 'NA'}}
+{'30s7o7': {'name': 'Sagor Ahmed Shopno', 'roll': '77130', 'age': '24', 'cgpa': '3.597', 'position': '16'}}
+{'31m2m0': {'name': 'Mst. Jakiya Khanam', 'roll': '2012077131', 'age': '24', 'cgpa': '2.859', 'position': '45'}}
+{'32m7a7': {'name': 'Md. Sohel Rana', 'roll': '77132', 'age': '24', 'cgpa': '2.871', 'position': '44'}}
+{'33a2k0': {'name': 'Abdul Malek', 'roll': '2011077133', 'age': '24', 'cgpa': '3.204', 'position': '35'}}
+{'34m7d7': {'name': 'Md. Al Shahriyar Akand', 'roll': '77134', 'age': '24', 'cgpa': 'NA', 'position': 'NA'}}
+{'35f2i0': {'name': 'Faisal Arefin Mahedi', 'roll': '2010777135', 'age': '24', 'cgpa': '3.509', 'position': '19'}}
+{'36j2y0': {'name': 'Jamema Joty', 'roll': '2012077136', 'age': '25', 'cgpa': '3.247', 'position': '31'}}
+{'37m2n0': {'name': 'Md. Hasibur Rahman', 'roll': '2010977137', 'age': '24', 'cgpa': '3.539', 'position': '18'}}
+{'38m2b0': {'name': 'Md. Al-amin Khan Sajib', 'roll': '2010877138', 'age': '25', 'cgpa': '3.320', 'position': '25'}}
+{'39m7r7': {'name': 'Md. Shoabe Akter', 'roll': '77139', 'age': '24', 'cgpa': '3.707', 'position': '11'}}
+{'40t2d0': {'name': 'Tawfik Ahmmed', 'roll': '2010677140', 'age': '24', 'cgpa': '2.975', 'position': '41'}}
+{'41z2h0': {'name': 'Zareen Tasnim Refah', 'roll': '2012377141', 'age': '24', 'cgpa': '3.750', 'position': '09'}}
+{'42m7m7': {'name': 'Md. Shafiqul Islam', 'roll': '77142', 'age': '24', 'cgpa': '2.228', 'position': 'NA'}}
+{'43a2h0': {'name': 'Anamul Haque Akash', 'roll': '2010277143', 'age': '24', 'cgpa': '2.774', 'position': '49'}}
+{'44m2n0': {'name': 'Md. Shakibuzzaman Jisan', 'roll': '2010277144', 'age': '24', 'cgpa': '3.670', 'position': '14'}}
+{'45m2d0': {'name': 'Md. Shakil Ahammed', 'roll': '2010377145', 'age': '24', 'cgpa': '3.362', 'position': '24'}}
+{'46j2d0': {'name': 'Junayed Ahammed', 'roll': '2010677146', 'age': '24', 'cgpa': '2.746', 'position': '51'}}
+{'47m7a7': {'name': 'Md. Amir Hamja', 'roll': '77147', 'age': '24', 'cgpa': '3.795', 'position': '06'}}
+{'48f2d0': {'name': 'Fazle Rahad', 'roll': '2010977148', 'age': '24', 'cgpa': 'NA', 'position': 'NA'}}
+{'49s2y0': {'name': 'Sharmin Islam Shouly', 'roll': '2012577149', 'age': '24', 'cgpa': 'NA', 'position': 'NA'}}
+{'50j7a7': {'name': 'Jerin Saima', 'roll': '77150', 'age': '24', 'cgpa': 'NA', 'position': 'NA'}}
+{'51m2b0': {'name': 'Md. Abdullah Al Soaeb', 'roll': '2011077151', 'age': '25', 'cgpa': '2.737', 'position': '52'}}
+{'52m7n7': {'name': 'Md. Jubaer Ahmad Khan', 'roll': '77152', 'age': '24', 'cgpa': 'NA', 'position': 'NA'}}
+{'53j7a7': {'name': 'Jison Chakma', 'roll': '77153', 'age': '25', 'cgpa': '2.771', 'position': '50'}}
