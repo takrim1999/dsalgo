@@ -19,7 +19,7 @@ class Student:
         self.roll = input("Input Roll: ")
         self.name = input("Input Name: ")
         global count
-        self.id = f"{makeCompatible(count)}{name[0].lower()}{makeCompatible(roll)[0]}{name[-1].lower()}{makeCompatible(roll)[1]}"
+        self.id = f"{makeCompatible(count)}{self.name[0].lower()}{makeCompatible(self.roll)[0]}{self.name[-1].lower()}{makeCompatible(self.roll)[1]}"
         count += 1                
         print(f"Informations for {self.name}")
         print(f"Roll: {self.roll}")
