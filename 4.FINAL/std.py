@@ -1,3 +1,9 @@
+def makeCompatible(num):    
+    if len(str(num))<2:
+        return "0" + str(num)
+    else:
+        return str(num)
+
 class Student:    
     def __init__(self,name=None,roll=None,age=None,cgpa=None,position=None):
         self.name = name
@@ -6,12 +12,12 @@ class Student:
         self.cgpa = cgpa
         self.position = position
         if self.name and self.roll:
-            # self.generateId()
-            # self.incrementCount()
+            self.generateId()
+            self.incrementCount()
             pass
         else:
             self.setInfo()
-            # self.incrementCount()
+            self.incrementCount()
     
     def setInfo(self):
         self.name = input("Name: ")
@@ -19,12 +25,12 @@ class Student:
         self.age = input("Age: ")
         self.cgpa = input("CGPA: ")
         self.position = input("Result Position: ")
-        # if self.name and self.roll:
-        #     self.generateId()
+        if self.name and self.roll:
+            self.generateId()
     
     def generateId(self):
         self.getCount()
-        # self.id = f"{makeCompatible(self.count)}{self.name[0].lower()}{makeCompatible(self.roll)[-2]}{self.name[-1].lower()}{makeCompatible(self.roll)[-1]}"
+        self.id = f"{makeCompatible(self.count)}{self.name[0].lower()}{makeCompatible(self.roll)[-2]}{self.name[-1].lower()}{makeCompatible(self.roll)[-1]}"
 
     def getCount(self):
         with open("counter.number",'r') as counter:
@@ -36,7 +42,7 @@ class Student:
             counter.write(str(self.count))
     
     def getInfo(self):
-        return {'name': self.name, 'roll': self.roll, 'age':self.age, 'cgpa':self.cgpa, 'position': self.position}
+        return {self.id : {'name': self.name, 'roll': self.roll, 'age':self.age, 'cgpa':self.cgpa, 'position': self.position}}
         print("Secret ID: ", self.id)
         print("Student Roll: ",self.roll)
         print("Student Name: ",self.name)

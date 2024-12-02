@@ -1,10 +1,5 @@
-# def makeCompatible(num):    
-#     if len(str(num))<2:
-#         return "0" + str(num)
-#     else:
-#         return str(num)
 import os
-
+import std
 class StudentRecord:
     def __init__(self):
         self.studentList = []
@@ -13,10 +8,8 @@ class StudentRecord:
             for record in data:
                 self.studentList.append(eval(record))
     
-    def searchStudent(self,parameter=None):
+    def searchStudent(self,parameter):
         os.system("clear")
-        if not parameter:
-            parameter = input("Search parameter(roll,name,cgpa,position,age): ")
         if parameter == "name":
             name = input("Query Name: ")
             payload = []
@@ -64,6 +57,14 @@ class StudentRecord:
                 payload.append({'error': "No record found!"})
             
             return payload
+        
+    def addStudent(self):
+        student = std.Student()
+        self.studentList.append(student.getInfo())
+        with open('objectDb.record', 'w') as database:
+            for i in self.studentList:
+                database.write(str(i)+"\n")        
+        return student.getInfo()
                 
 def display():
     os.system("clear")
@@ -75,18 +76,29 @@ def display():
 > ''')
     return choice
 
+
 while True:
     choice = display()
     myRecord = StudentRecord()
     if choice == "exit":
         break
     elif choice == "search":
-        messages = myRecord.searchStudent()
+        parameter = input("Search parameter(roll,name,cgpa,position,age): ")
+        messages = myRecord.searchStudent(parameter)
         for message in messages:
             print(message)
-        while input("Search again?: ") == "yes":
-           messages = myRecord.searchStudent('cgpa')
+        while input("Search again?\n>") == "yes":
+           messages = myRecord.searchStudent(parameter)
            for message in messages:
                print(message)
         else:
             pass
+    elif choice == 'add':
+        messages = []
+        messages.append({'New Record Added' : myRecord.addStudent()})
+        while input("Add more?\n>") == "yes":
+            messages.append({'New Record Added' : myRecord.addStudent()})
+        for message in messages:
+            print(message)
+    # elif choice == "edit":
+        
