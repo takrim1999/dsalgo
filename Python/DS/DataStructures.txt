@@ -1,0 +1,18 @@
+Data Structures:
+    1. Primitive
+        - Integer
+        - Float
+        - Character
+        - String
+        - Boolean
+    2. Non Primitive
+        1. Linear Data Structures
+            1. Static
+                - Array
+            2. Dynamic
+                - Linked List
+                - Stack
+                - Queue
+        2. Non Linear Data Structures
+            - Tree
+            - Graph
