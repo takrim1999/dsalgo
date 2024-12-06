@@ -1,8 +1,0 @@
-Recursion is a process of solving problems by calling funtion itslef.
-
-example:
-    def openRussianDoll(doll):
-        if doll == 1:
-            print("All Openned!")
-        else
-            openRussianDoll(doll-1)
